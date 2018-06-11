@@ -22,13 +22,17 @@ Os principais serviços que são contemplados pelo MobileOS for Android são:
 
 O software é integrado com a sistema GSAN via Webservice ou via arquivo texto.
 
-A versão Ultimate será divida em três módulos:
+
+
+#A versão Ultimate será divida em três módulos:
 
 1. Back-end em Java (Spring Boot) com banco de dados Postgres;
 2. Front-end em React;
 3. Aplicação Móvel em Android
 
+
 Nessa versão será possível gerenciar todas as etapas relacionadas a Gestão de Serviços de uma empresa de Saneamento. A solução poderá trabalhar isolada ou integrada a um software comercial voltado para Saneamento. Inicialmente, a versão Mobile era voltada e integrada ao Sistema GSAN (https://softwarepublico.gov.br/social/gsan).
+
 
 Algumas das funcionalidades que serão contempladas pela aplicação:
 1. Cadastrar os materiais necessários e a quantidade necessária para executar um determinado tipo de serviço;
