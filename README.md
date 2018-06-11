@@ -9,10 +9,15 @@ Na versão para dispositivo móvel do MobileOS o usuário poderá controlar toda
 Tempo de execução do serviço, material que foi utilizado em campo, valas, dados da rede são alguns das informações que podem ser coletadas utilizando-se de um dispositivo móvel com sistema operacional Android.
 
 Os principais serviços que são contemplados pelo MobileOS for Android são:
+
 • Serviços relacionadas a Manutenção de Rede ou Ramal;
+
 • Serviços relacionados a Corte ou Supressão;
+
 • Serviços relacionados a Ligação Nova;
+
 • Serviços relacionados a Instalação de Hidrômetro;
+
 • Serviços relacionados a Substituição de Hidrômetro.
 
 O software é integrado com a sistema GSAN via Webservice ou via arquivo texto.
