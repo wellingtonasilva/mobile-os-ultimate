@@ -24,7 +24,7 @@ O software é integrado com a sistema GSAN via Webservice ou via arquivo texto.
 
 
 
-# A versão Ultimate será divida em três módulos:
+# A versão Ultimate está divida em três módulos:
 
 1. Back-end em Java (Spring Boot) com banco de dados Postgres;
 2. Front-end em React;
