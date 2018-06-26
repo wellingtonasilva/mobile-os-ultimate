@@ -1,4 +1,4 @@
-package br.com.wsilva.mobileos.graphql;
+package br.com.wsilva.mobileos.resolver;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -11,12 +11,12 @@ import br.com.wsilva.mobileos.entity.CategoriaEntity;
 import br.com.wsilva.mobileos.service.ICategoriaService;
 
 @Component
-public class Query implements GraphQLQueryResolver {
+public class CategoriaResolver implements GraphQLQueryResolver {
 	
 	private ICategoriaService categoriaService;
 	
 	@Autowired
-	public Query(ICategoriaService categoriaService) {
+	public CategoriaResolver(ICategoriaService categoriaService) {
 		this.categoriaService = categoriaService;
 	}
 	

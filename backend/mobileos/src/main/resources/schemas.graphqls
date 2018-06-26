@@ -1,14 +1,39 @@
-schema {
-  query: Query
-}
 
 type Query {
   categorias: [Categoria]
   categoria(id: ID!): Categoria
+  listAllAreaTipo: [AreaTipo]
+  getAreaTipo(id: ID!): AreaTipo
 }
 
+type Mutation {
+	saveCategoria(entity: CategoriaInput): Categoria
+	saveAreatipo(entity: AreaTipoInput): AreaTipo 
+}
 
 type Categoria {
   id: Int
   descricao: String!
-}	
+}
+
+type AreaTipo {
+	id: Int
+	descricao: String
+	abreviado: String	
+}
+
+input CategoriaInput {
+  id: Int
+  descricao: String!
+}
+
+input AreaTipoInput {
+	id: Int
+	descricao: String
+	abreviado: String	
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
