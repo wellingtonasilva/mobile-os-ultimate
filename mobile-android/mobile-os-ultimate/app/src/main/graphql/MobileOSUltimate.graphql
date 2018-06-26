@@ -1,0 +1,20 @@
+query listAllAreaTipo {
+  listAllAreaTipo {
+    id
+    descricao
+  }
+}
+
+query getAreaTipo($id:ID!) {
+  getAreaTipo(id:$id) {
+    id
+    abreviado
+  }
+}
+
+query categorias($id: ID!) {
+  categoria(id:$id) {
+    id
+    descricao
+  }
+}
